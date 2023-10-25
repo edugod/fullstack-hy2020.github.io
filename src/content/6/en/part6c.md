@@ -353,7 +353,7 @@ const App = () => {
 
   useEffect(() => {
     dispatch(initializeNotes())  
-  }, []) 
+  }, [dispatch]) 
 
   // ...
 }
