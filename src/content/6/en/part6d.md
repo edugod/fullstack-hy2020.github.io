@@ -62,6 +62,10 @@ Install the library with the command
 ```bash
 npm install @tanstack/react-query
 ```
+PLEASE NOTE: IF INSTALLED THE NEWEST VERSION IT WONT WORK
+I HAD TO CHANGE TO VERSION     "@tanstack/react-query": "^4.36.1",
+THEN IT WORKED
+
 
 A few additions to the file  <i>main.jsx</i> are needed to pass the library functions to the entire application:
 
